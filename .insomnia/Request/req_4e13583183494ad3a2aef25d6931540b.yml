@@ -1,0 +1,61 @@
+_id: req_4e13583183494ad3a2aef25d6931540b
+type: Request
+parentId: fld_593d75a9064a4ebea2b2c4f5400d2cfe
+modified: 1682093277391
+created: 1679915103913
+url: "{{ _.activeplan_dataaccess }}/api/activeplanmng/circulation-info/search"
+name: Get Circulations Info
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "start": 0,
+      "end": 10000,
+      "filter": {
+        "conditions": [
+          {
+            "condition": {
+              "field": "applicationDay",
+              "operator": "EQUALS",
+              "value": "1682035200000"
+            }
+          },
+          {
+            "condition": {
+              "field": "planned",
+              "operator": "EQUALS",
+              "value": true
+            }
+          }
+        ]
+      },
+      "order": [
+        {
+          "field": "originNumber",
+          "dir": "ASC"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1678268825082.2695
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

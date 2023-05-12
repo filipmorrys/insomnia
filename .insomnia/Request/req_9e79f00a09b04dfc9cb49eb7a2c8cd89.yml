@@ -1,0 +1,35 @@
+_id: req_9e79f00a09b04dfc9cb49eb7a2c8cd89
+type: Request
+parentId: fld_116803fd935b4bd4bc3aafe5669c83e0
+modified: 1680082925023
+created: 1680082859577
+url: "{{ _.topology_cachemng
+  }}/api/topologycachemng/basetopology/movementsByNodeId/{{ _.topology_version
+  }}/084b2fab-4592-34c0-9dbf-b141fde5faba"
+name: Get Movements By NodeId
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1632796177179.4219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

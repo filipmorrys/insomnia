@@ -1,0 +1,1315 @@
+_id: req_d795bdb1b288440880e35374f2eab666
+type: Request
+parentId: fld_593d75a9064a4ebea2b2c4f5400d2cfe
+modified: 1683890145101
+created: 1678980385548
+url: "{{ _.activeplan_dataaccess }}/api/activeplanmng/circulation"
+name: Create Circulation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "id" : null,
+      "originNumber" : "69690",
+      "applicationDay" : 1683849600000,
+      "runningProfile" : null,
+      "parentID" : "038b19e4-00c5-4fb8-87ea-62d81625e737",
+      "plannedRoute" : [ {
+        "tczId" : "b8a0cea8-6556-3aef-966e-330a7a1474e4",
+        "tczPublicId" : "59327d22-47f5-466b-83b3-4d27433a5e99",
+        "nodeId" : "9cf33885-01bd-38b7-b42f-8649b4e1a7f7",
+        "tczOrder" : 0,
+        "refTczOrder" : 0,
+        "operational" : true,
+        "distance" : 3392.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "a2269a76-1985-3daa-9819-a520a772f7e7",
+        "stTrackPubId" : "59327d22-47f5-466b-83b3-4d27433a5e99",
+        "circTrackId" : "4387e245-89fe-3c9e-9513-d251091cbd03",
+        "circTrackPubId" : "59327d22-47f5-466b-83b3-4d27433a5e99",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "59327d22-47f5-466b-83b3-4d27433a5e99",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "59327d22-47f5-466b-83b3-4d27433a5e99",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "ab2d7120-d8d8-32d8-a158-272caa5bee62",
+        "oMovementPubId" : null,
+        "iMovementId" : null,
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "ac0756ea-f2ee-3586-90ae-ffb314cf2d35",
+        "tczPublicId" : "49d1e9f6-b316-4c00-8df2-6901b5509e5a",
+        "nodeId" : "19b899f7-19c0-3063-8c46-a6c540e0bd37",
+        "tczOrder" : 1,
+        "refTczOrder" : 1,
+        "operational" : true,
+        "distance" : 13260.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "1d78f99f-6d51-342d-9b69-22628f8a55cb",
+        "stTrackPubId" : "49d1e9f6-b316-4c00-8df2-6901b5509e5a",
+        "circTrackId" : "7b4123e0-8d13-3344-8b76-b21a6b0109da",
+        "circTrackPubId" : "49d1e9f6-b316-4c00-8df2-6901b5509e5a",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "49d1e9f6-b316-4c00-8df2-6901b5509e5a",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "49d1e9f6-b316-4c00-8df2-6901b5509e5a",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "345546e3-318c-3b86-a4f8-20775e87035f",
+        "oMovementPubId" : null,
+        "iMovementId" : "1d742ac8-1f82-3ea9-9a86-cdd6b03880a8",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "f82c5149-dcdb-3340-b7bc-b21da4e3001a",
+        "tczPublicId" : "f7ac0c0e-a413-4a2a-a778-b515a2b75258",
+        "nodeId" : "084b2fab-4592-34c0-9dbf-b141fde5faba",
+        "tczOrder" : 2,
+        "refTczOrder" : 2,
+        "operational" : true,
+        "distance" : 6355.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "a38b9bea-ef63-3fae-9a2e-0bc1c4aff125",
+        "stTrackPubId" : "f7ac0c0e-a413-4a2a-a778-b515a2b75258",
+        "circTrackId" : "380898dd-e62c-3369-b862-2c1daef15d4e",
+        "circTrackPubId" : "f7ac0c0e-a413-4a2a-a778-b515a2b75258",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "f7ac0c0e-a413-4a2a-a778-b515a2b75258",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "f7ac0c0e-a413-4a2a-a778-b515a2b75258",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "bc9d74db-8689-3c73-a245-6e42cb4b4005",
+        "oMovementPubId" : null,
+        "iMovementId" : "9fecdd68-70dd-3a39-8ba0-1dd86c640c6b",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "3fcd15bb-7e10-3aa6-8a5f-ea19a823cbf8",
+        "tczPublicId" : "3ddbfad3-f468-4d2e-8552-1bb88728618f",
+        "nodeId" : "4c30c41a-e995-3b4e-b266-5e271a102915",
+        "tczOrder" : 3,
+        "refTczOrder" : 3,
+        "operational" : true,
+        "distance" : 2901.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "8a223973-89b7-3efd-aee3-454e1d7a4d5c",
+        "stTrackPubId" : "3ddbfad3-f468-4d2e-8552-1bb88728618f",
+        "circTrackId" : "c0d3120a-cdf8-3249-9093-1b6588303fb6",
+        "circTrackPubId" : "3ddbfad3-f468-4d2e-8552-1bb88728618f",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "3ddbfad3-f468-4d2e-8552-1bb88728618f",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "3ddbfad3-f468-4d2e-8552-1bb88728618f",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "e1e8d5b8-bd15-3d41-a2b0-27bd90e6fb85",
+        "oMovementPubId" : null,
+        "iMovementId" : "6f78e147-8a33-37ae-9ee4-ed2bcf1dcf48",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "bdead4b4-dcb8-34dc-a111-eff0bb1cb33d",
+        "tczPublicId" : "18c9d35d-985a-4648-8c6a-a2fdf84b63b5",
+        "nodeId" : "eb6991bd-69ac-390f-9595-089415d30e99",
+        "tczOrder" : 4,
+        "refTczOrder" : 4,
+        "operational" : true,
+        "distance" : 2619.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "cc60da9f-b181-3023-90d9-50e37b3dfbba",
+        "stTrackPubId" : "18c9d35d-985a-4648-8c6a-a2fdf84b63b5",
+        "circTrackId" : "a0d824f7-f919-3e3a-a92e-a8a7ece8430b",
+        "circTrackPubId" : "18c9d35d-985a-4648-8c6a-a2fdf84b63b5",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "18c9d35d-985a-4648-8c6a-a2fdf84b63b5",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "18c9d35d-985a-4648-8c6a-a2fdf84b63b5",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "6acb51f8-8d27-3dd4-a6ac-c4c169af8841",
+        "oMovementPubId" : null,
+        "iMovementId" : "2e13a750-16ed-3230-9308-bd8a5b6a64a0",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "13994c20-36fc-3463-a7a2-5ae6d0bca521",
+        "tczPublicId" : "268fc472-863c-499c-b7d3-57f74750343b",
+        "nodeId" : "82c6a023-7882-3101-945c-d2e58043b4ab",
+        "tczOrder" : 5,
+        "refTczOrder" : 5,
+        "operational" : true,
+        "distance" : 6493.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "6ccffbd1-8289-3b3d-b098-2dc76715008b",
+        "stTrackPubId" : "268fc472-863c-499c-b7d3-57f74750343b",
+        "circTrackId" : "9f417a0e-103f-3f50-bc46-bc48a3309fe9",
+        "circTrackPubId" : "268fc472-863c-499c-b7d3-57f74750343b",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "268fc472-863c-499c-b7d3-57f74750343b",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "268fc472-863c-499c-b7d3-57f74750343b",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "8a253594-562b-39cf-a7e0-7dca0b3d8763",
+        "oMovementPubId" : null,
+        "iMovementId" : "f2a7aa8e-7fc8-30e7-b4ac-dc1e167b09b4",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "b445f5d8-52c4-30dd-ab5c-5f9656f388a4",
+        "tczPublicId" : "4b79f5b3-df6c-4ef2-b3ce-d315a3045974",
+        "nodeId" : "1806cb20-1110-3213-8244-1781540db58e",
+        "tczOrder" : 6,
+        "refTczOrder" : 6,
+        "operational" : true,
+        "distance" : 4798.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "f68a9eb9-5f1a-3c51-a216-b0cbf0cc153d",
+        "stTrackPubId" : "4b79f5b3-df6c-4ef2-b3ce-d315a3045974",
+        "circTrackId" : "0e76de19-2fdc-3d4c-9426-26909b52b81e",
+        "circTrackPubId" : "4b79f5b3-df6c-4ef2-b3ce-d315a3045974",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "4b79f5b3-df6c-4ef2-b3ce-d315a3045974",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "4b79f5b3-df6c-4ef2-b3ce-d315a3045974",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "ed170f7f-3010-3d94-a80e-8401e54cc9dd",
+        "oMovementPubId" : null,
+        "iMovementId" : "347641c0-01d4-32ed-8f5f-8d08def3add6",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "b545ecb7-ca57-385e-808c-afe679569acf",
+        "tczPublicId" : "5abff14e-57fa-428c-b5b4-e761fb902f52",
+        "nodeId" : "aba96bdb-5f9f-31ac-bb8d-72c6bddb0d50",
+        "tczOrder" : 7,
+        "refTczOrder" : 7,
+        "operational" : true,
+        "distance" : 6334.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "22e73071-bee9-374c-b7e8-3e3edbfa6ce2",
+        "stTrackPubId" : "5abff14e-57fa-428c-b5b4-e761fb902f52",
+        "circTrackId" : "177b0a71-7cd3-3e24-90dd-a15236b78901",
+        "circTrackPubId" : "5abff14e-57fa-428c-b5b4-e761fb902f52",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "5abff14e-57fa-428c-b5b4-e761fb902f52",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "5abff14e-57fa-428c-b5b4-e761fb902f52",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "f2c612dc-af9b-3ed8-b3bd-5676818e9583",
+        "oMovementPubId" : null,
+        "iMovementId" : "05905001-0471-360d-8a3f-a310a860e836",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "5addd1cc-3c96-3f6e-87db-c37b4541ecb7",
+        "tczPublicId" : "ba0f7103-6da4-4362-aa54-ad908459d99a",
+        "nodeId" : "ee2f79cf-e12a-3ee6-ad4b-81ede08f38a1",
+        "tczOrder" : 8,
+        "refTczOrder" : 8,
+        "operational" : true,
+        "distance" : 5107.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "26cc3262-b41b-3004-aa06-ded635ff75af",
+        "stTrackPubId" : "ba0f7103-6da4-4362-aa54-ad908459d99a",
+        "circTrackId" : "756de432-f31b-3314-9b1e-dff7b9e65056",
+        "circTrackPubId" : "ba0f7103-6da4-4362-aa54-ad908459d99a",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "ba0f7103-6da4-4362-aa54-ad908459d99a",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "ba0f7103-6da4-4362-aa54-ad908459d99a",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "49124854-b445-38e3-b1e0-16d990daec0b",
+        "oMovementPubId" : null,
+        "iMovementId" : "212db573-109e-3127-822e-9ed75fb00018",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "6d4f92a2-f983-3f53-97da-a0f86357e3fc",
+        "tczPublicId" : "c24551a4-7c86-462e-8986-1d9fa1080ee2",
+        "nodeId" : "3156f39a-870d-304d-b5b0-6caf31022266",
+        "tczOrder" : 9,
+        "refTczOrder" : 9,
+        "operational" : true,
+        "distance" : 3885.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "eedcd10a-be16-397f-85aa-34eb55c50d20",
+        "stTrackPubId" : "c24551a4-7c86-462e-8986-1d9fa1080ee2",
+        "circTrackId" : "e7faa628-cdda-34a1-bc02-473403b67899",
+        "circTrackPubId" : "c24551a4-7c86-462e-8986-1d9fa1080ee2",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "c24551a4-7c86-462e-8986-1d9fa1080ee2",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "c24551a4-7c86-462e-8986-1d9fa1080ee2",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "1e1d2b0f-07bd-335b-a435-5106410e5aa0",
+        "oMovementPubId" : null,
+        "iMovementId" : "bee4e58c-526e-3740-83b9-9f84568d5594",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "63ae0f45-67d6-31e2-b584-f9d764244ddd",
+        "tczPublicId" : "e4dea23f-707e-4880-9839-c7761e474b4c",
+        "nodeId" : "bd7849d9-12a5-3328-9e33-9b9df83131b3",
+        "tczOrder" : 10,
+        "refTczOrder" : 10,
+        "operational" : true,
+        "distance" : 2453.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "7463d925-b95f-31a6-8e67-4171e5882dab",
+        "stTrackPubId" : "e4dea23f-707e-4880-9839-c7761e474b4c",
+        "circTrackId" : "6ec172dd-aa39-3620-8124-a7616003fac3",
+        "circTrackPubId" : "e4dea23f-707e-4880-9839-c7761e474b4c",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "e4dea23f-707e-4880-9839-c7761e474b4c",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "e4dea23f-707e-4880-9839-c7761e474b4c",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "a8b3f0af-7244-349f-a360-90cfefc5e655",
+        "oMovementPubId" : null,
+        "iMovementId" : "c94ef685-777e-33b1-8813-26df327fc915",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "419e8590-e186-3612-9253-8d7b23537327",
+        "tczPublicId" : "325e47ff-4074-47e9-9d23-a251b169b0de",
+        "nodeId" : "5ff14585-ce38-317c-956e-0970df2a5b93",
+        "tczOrder" : 11,
+        "refTczOrder" : 11,
+        "operational" : true,
+        "distance" : 3620.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "2c6c78b7-ea43-3c6d-8e49-2aaf188204c5",
+        "stTrackPubId" : "325e47ff-4074-47e9-9d23-a251b169b0de",
+        "circTrackId" : "35607e74-1d5a-3b5c-96f5-f932b3532b8d",
+        "circTrackPubId" : "325e47ff-4074-47e9-9d23-a251b169b0de",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "325e47ff-4074-47e9-9d23-a251b169b0de",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "325e47ff-4074-47e9-9d23-a251b169b0de",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "c8206c5a-cfe9-3ff5-9484-8e71734964a3",
+        "oMovementPubId" : null,
+        "iMovementId" : "97afcb7f-299b-3e2e-8a1e-a13a6ac5ef45",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "45d5f57a-6b95-3d53-9e86-b5af6e4ca970",
+        "tczPublicId" : "84f8c923-48e5-4e63-8c78-baa4e017d524",
+        "nodeId" : "cbf49637-a1ab-31c0-8cf4-593f97c080bf",
+        "tczOrder" : 12,
+        "refTczOrder" : 12,
+        "operational" : true,
+        "distance" : 4400.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "461f9c83-9872-362f-90a9-f527fcada830",
+        "stTrackPubId" : "84f8c923-48e5-4e63-8c78-baa4e017d524",
+        "circTrackId" : "c01bc549-cb63-380a-bc9e-1dfd24e8142c",
+        "circTrackPubId" : "84f8c923-48e5-4e63-8c78-baa4e017d524",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "84f8c923-48e5-4e63-8c78-baa4e017d524",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "84f8c923-48e5-4e63-8c78-baa4e017d524",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "104371d4-2563-3d38-a25b-6dc8c7d11c05",
+        "oMovementPubId" : null,
+        "iMovementId" : "ad2532da-c6d0-3e71-bb2c-911acc9057b7",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "3476cd54-9495-3cf2-bc32-e85f35b37d54",
+        "tczPublicId" : "89b9a183-0b65-44d9-ae3f-f52fd0e18bde",
+        "nodeId" : "d26a7887-85cd-3312-9122-c386148bda40",
+        "tczOrder" : 13,
+        "refTczOrder" : 13,
+        "operational" : true,
+        "distance" : 6170.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "33cca4c6-685f-397d-b187-061987953406",
+        "stTrackPubId" : "89b9a183-0b65-44d9-ae3f-f52fd0e18bde",
+        "circTrackId" : "60421f8f-10ea-3f1d-96c9-a1757247146e",
+        "circTrackPubId" : "89b9a183-0b65-44d9-ae3f-f52fd0e18bde",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "89b9a183-0b65-44d9-ae3f-f52fd0e18bde",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "89b9a183-0b65-44d9-ae3f-f52fd0e18bde",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "79a26241-4f23-3f34-b78f-151da0290cf6",
+        "oMovementPubId" : null,
+        "iMovementId" : "e40db053-a257-3ab5-b62a-b16aa932e96b",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "e2c4d5ab-d4d0-33bb-b011-6aa1ff476426",
+        "tczPublicId" : "0444a7c7-de13-4299-8484-5b4d80e9b505",
+        "nodeId" : "41861841-8027-3b10-a597-f6baccab40d4",
+        "tczOrder" : 14,
+        "refTczOrder" : 14,
+        "operational" : true,
+        "distance" : 1436.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "24b81755-7845-3b7e-9e04-7cd7402b9cb6",
+        "stTrackPubId" : "0444a7c7-de13-4299-8484-5b4d80e9b505",
+        "circTrackId" : "d91c2e9e-2c08-3da3-93ed-38c058bca3c7",
+        "circTrackPubId" : "0444a7c7-de13-4299-8484-5b4d80e9b505",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "0444a7c7-de13-4299-8484-5b4d80e9b505",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "0444a7c7-de13-4299-8484-5b4d80e9b505",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "b5b45f82-9bab-3959-9903-d59f6369fcc0",
+        "oMovementPubId" : null,
+        "iMovementId" : "0dedafb8-4aa9-3ed7-b14b-700e17439ede",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "4a62c3ca-977c-3dc3-a85e-2ba69397eaf8",
+        "tczPublicId" : "082b4e14-7cdf-49bf-8578-a5270de28da2",
+        "nodeId" : "c6dcdab8-3ee4-3fa0-b163-f574af23a6ff",
+        "tczOrder" : 15,
+        "refTczOrder" : 15,
+        "operational" : true,
+        "distance" : 2625.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "3bffae96-23d5-3e07-acfe-d3678daa0364",
+        "stTrackPubId" : "082b4e14-7cdf-49bf-8578-a5270de28da2",
+        "circTrackId" : "d14551af-ed85-3abd-b2f7-a755cc2fc67b",
+        "circTrackPubId" : "082b4e14-7cdf-49bf-8578-a5270de28da2",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "082b4e14-7cdf-49bf-8578-a5270de28da2",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "082b4e14-7cdf-49bf-8578-a5270de28da2",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "aad79d5a-35bf-3262-ad0e-048dae7c2f94",
+        "oMovementPubId" : null,
+        "iMovementId" : "135e8da6-5861-35d5-b9de-3a6471d7bd87",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "24812122-e379-3bca-9d4a-3e01f4e09950",
+        "tczPublicId" : "acdb1c28-1084-46df-b091-2261e1ffffac",
+        "nodeId" : "6ab9f197-a979-3615-ad50-e4a468f68d95",
+        "tczOrder" : 16,
+        "refTczOrder" : 16,
+        "operational" : true,
+        "distance" : 4934.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "98fbcb4a-a4d4-3668-b089-074be42d4069",
+        "stTrackPubId" : "acdb1c28-1084-46df-b091-2261e1ffffac",
+        "circTrackId" : "195525e0-8cc0-36f0-8bba-4bba8ed51c86",
+        "circTrackPubId" : "acdb1c28-1084-46df-b091-2261e1ffffac",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "acdb1c28-1084-46df-b091-2261e1ffffac",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "acdb1c28-1084-46df-b091-2261e1ffffac",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "c315b0f0-9ef1-376f-8f87-28db47a816a6",
+        "oMovementPubId" : null,
+        "iMovementId" : "735876db-c960-3822-a73f-de7126b0a9f7",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "e0e3efe6-29eb-3701-b1a7-1bba4276d6ad",
+        "tczPublicId" : "f583156c-93fd-452a-8620-eed3c79c3bc3",
+        "nodeId" : "1cd1c545-a14b-3267-a295-795280510a79",
+        "tczOrder" : 17,
+        "refTczOrder" : 17,
+        "operational" : true,
+        "distance" : 6094.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "8040cd2c-b74f-3c83-8754-6e7dd05c8082",
+        "stTrackPubId" : "f583156c-93fd-452a-8620-eed3c79c3bc3",
+        "circTrackId" : "79b98653-3304-359a-b925-934bfa65065f",
+        "circTrackPubId" : "f583156c-93fd-452a-8620-eed3c79c3bc3",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "f583156c-93fd-452a-8620-eed3c79c3bc3",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "f583156c-93fd-452a-8620-eed3c79c3bc3",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "ae71b3be-adab-3966-af6c-5ed4cfaf1947",
+        "oMovementPubId" : null,
+        "iMovementId" : "37c6fb94-a4f1-3547-a16a-5bc8cbb487c4",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "49c80206-83bf-3ae1-aca2-6f9070fa9080",
+        "tczPublicId" : "07f0e572-c71f-4add-bd99-be23c9de086e",
+        "nodeId" : "fdf0afd0-9f3d-36bb-8883-5da286e9f470",
+        "tczOrder" : 18,
+        "refTczOrder" : 18,
+        "operational" : true,
+        "distance" : 2322.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "2304971a-0cfc-314b-a5da-eff3251c9202",
+        "stTrackPubId" : "07f0e572-c71f-4add-bd99-be23c9de086e",
+        "circTrackId" : "36464795-40b8-3f28-abd8-ab23daf07525",
+        "circTrackPubId" : "07f0e572-c71f-4add-bd99-be23c9de086e",
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "07f0e572-c71f-4add-bd99-be23c9de086e",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "07f0e572-c71f-4add-bd99-be23c9de086e",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : "e9e4e754-915b-396f-9101-72db00684348",
+        "oMovementPubId" : null,
+        "iMovementId" : "4b770bec-bfe5-35a8-9fdb-1ff8a19ed0f7",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      }, {
+        "tczId" : "c91f444a-a91b-3643-924b-930683cf09f9",
+        "tczPublicId" : "3d1513f1-dcd8-4e75-8a43-8705ac9f6e06",
+        "nodeId" : "0c0df3a1-6809-365a-baa7-9955503fa667",
+        "tczOrder" : 19,
+        "refTczOrder" : 19,
+        "operational" : true,
+        "distance" : 0.0,
+        "cpId" : null,
+        "cpPubId" : null,
+        "stTrackId" : "1eeba698-c4cf-361e-9d82-375d550369c0",
+        "stTrackPubId" : "3d1513f1-dcd8-4e75-8a43-8705ac9f6e06",
+        "circTrackId" : null,
+        "circTrackPubId" : null,
+        "outputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "outputLinePubId" : "3d1513f1-dcd8-4e75-8a43-8705ac9f6e06",
+        "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
+        "inputLinePubId" : "3d1513f1-dcd8-4e75-8a43-8705ac9f6e06",
+        "atpMode" : "ASFA",
+        "currentNumber" : "69690",
+        "gauge" : "CONVENTIONAL",
+        "maneuverId" : null,
+        "oMovementId" : null,
+        "oMovementPubId" : null,
+        "iMovementId" : "ec56e789-db39-3ffc-b7df-fab40fc0aa30",
+        "iMovementPubId" : null,
+        "inputBands" : [ ],
+        "outputBands" : [ ],
+        "et" : false,
+        "df" : false,
+        "ctcList" : [ ],
+        "nodeOccurrenceId" : null
+      } ],
+      "plannedTimetable" : {
+        "lastUpdateDate" : 1680163546450,
+        "lastUpdateUser" : "System",
+        "tcps" : [ {
+          "tczOrder" : 0,
+          "refTczOrder" : 0,
+          "arrival" : {
+            "hour" : 1683871200000
+          },
+          "type" : "ORIGIN",
+          "departure" : {
+            "hour" : 1683871200000,
+            "commercial" : 1683871080000,
+            "technicalTime" : 60,
+            "minimalStopTime" : 60,
+            "technical" : 1683871140000
+          }
+        }, {
+          "tczOrder" : 1,
+          "refTczOrder" : 1,
+          "arrival" : {
+            "hour" : 1683871380000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683871380000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 2,
+          "refTczOrder" : 2,
+          "arrival" : {
+            "hour" : 1683871840000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683871840000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 3,
+          "refTczOrder" : 3,
+          "arrival" : {
+            "hour" : 1683872060000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683872060000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 4,
+          "refTczOrder" : 4,
+          "arrival" : {
+            "hour" : 1683872170000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683872170000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 5,
+          "refTczOrder" : 5,
+          "arrival" : {
+            "hour" : 1683872260000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683872260000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 6,
+          "refTczOrder" : 6,
+          "arrival" : {
+            "hour" : 1683872500000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683872500000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 7,
+          "refTczOrder" : 7,
+          "arrival" : {
+            "hour" : 1683872680000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683872680000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 8,
+          "refTczOrder" : 8,
+          "arrival" : {
+            "hour" : 1683872900000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683872900000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 9,
+          "refTczOrder" : 9,
+          "arrival" : {
+            "hour" : 1683873080000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683873080000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 10,
+          "refTczOrder" : 10,
+          "arrival" : {
+            "hour" : 1683873230000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683873230000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 11,
+          "refTczOrder" : 11,
+          "arrival" : {
+            "hour" : 1683873320000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683873320000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 12,
+          "refTczOrder" : 12,
+          "arrival" : {
+            "hour" : 1683873450000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683873450000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 13,
+          "refTczOrder" : 13,
+          "arrival" : {
+            "hour" : 1683873610000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683873610000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 14,
+          "refTczOrder" : 14,
+          "arrival" : {
+            "hour" : 1683873830000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683873830000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 15,
+          "refTczOrder" : 15,
+          "arrival" : {
+            "hour" : 1683873880000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683873880000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 16,
+          "refTczOrder" : 16,
+          "arrival" : {
+            "hour" : 1683873970000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683873970000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 17,
+          "refTczOrder" : 17,
+          "arrival" : {
+            "hour" : 1683874150000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683874150000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 18,
+          "refTczOrder" : 18,
+          "arrival" : {
+            "hour" : 1683874370000
+          },
+          "type" : "THROUGH",
+          "departure" : {
+            "hour" : 1683874370000,
+            "commercial" : null,
+            "technicalTime" : null,
+            "minimalStopTime" : null,
+            "technical" : null
+          }
+        }, {
+          "tczOrder" : 19,
+          "refTczOrder" : 19,
+          "arrival" : {
+            "hour" : 1683874530000
+          },
+          "type" : "DESTINATION",
+          "departure" : {
+            "hour" : 1683874530000,
+            "commercial" : 1680130800000,
+            "technicalTime" : 60,
+            "minimalStopTime" : 90,
+            "technical" : 1680130860000
+          }
+        } ],
+        "recordOperations" : [ ]
+      },
+      "workRoute" : null,
+      "workTimetable" : null,
+      "state" : "NEXT",
+      "generalData" : {
+        "trafficType" : "PASSENGER",
+        "trafficSubtype" : "Direct diesel train",
+        "internationalTrainNumber" : "66666",
+        "plannedType" : "REGULAR",
+        "company" : "indra",
+        "delayThreshold" : 120
+      },
+      "planned" : true,
+      "realTimetable" : null,
+      "forecastTimetable" : null,
+      "runningTimes" : {
+        "lastUpdate" : 0,
+        "runningTime" : [ {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 149,
+          "tczOrder" : 0,
+          "refTczOrder" : 0
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 398,
+          "tczOrder" : 1,
+          "refTczOrder" : 1
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 191,
+          "tczOrder" : 2,
+          "refTczOrder" : 2
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 87,
+          "tczOrder" : 3,
+          "refTczOrder" : 3
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 79,
+          "tczOrder" : 4,
+          "refTczOrder" : 4
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 195,
+          "tczOrder" : 5,
+          "refTczOrder" : 5
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 144,
+          "tczOrder" : 6,
+          "refTczOrder" : 6
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 190,
+          "tczOrder" : 7,
+          "refTczOrder" : 7
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 153,
+          "tczOrder" : 8,
+          "refTczOrder" : 8
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 116,
+          "tczOrder" : 9,
+          "refTczOrder" : 9
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 74,
+          "tczOrder" : 10,
+          "refTczOrder" : 10
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 108,
+          "tczOrder" : 11,
+          "refTczOrder" : 11
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 132,
+          "tczOrder" : 12,
+          "refTczOrder" : 12
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 185,
+          "tczOrder" : 13,
+          "refTczOrder" : 13
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 43,
+          "tczOrder" : 14,
+          "refTczOrder" : 14
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 78,
+          "tczOrder" : 15,
+          "refTczOrder" : 15
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 148,
+          "tczOrder" : 16,
+          "refTczOrder" : 16
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 183,
+          "tczOrder" : 17,
+          "refTczOrder" : 17
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 117,
+          "tczOrder" : 18,
+          "refTczOrder" : 18
+        } ]
+      },
+      "workRunningTimes" : {
+        "lastUpdate" : 0,
+        "runningTime" : [ {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 149,
+          "tczOrder" : 0,
+          "refTczOrder" : 0
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 398,
+          "tczOrder" : 1,
+          "refTczOrder" : 1
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 191,
+          "tczOrder" : 2,
+          "refTczOrder" : 2
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 87,
+          "tczOrder" : 3,
+          "refTczOrder" : 3
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 79,
+          "tczOrder" : 4,
+          "refTczOrder" : 4
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 195,
+          "tczOrder" : 5,
+          "refTczOrder" : 5
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 144,
+          "tczOrder" : 6,
+          "refTczOrder" : 6
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 190,
+          "tczOrder" : 7,
+          "refTczOrder" : 7
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 153,
+          "tczOrder" : 8,
+          "refTczOrder" : 8
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 116,
+          "tczOrder" : 9,
+          "refTczOrder" : 9
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 74,
+          "tczOrder" : 10,
+          "refTczOrder" : 10
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 108,
+          "tczOrder" : 11,
+          "refTczOrder" : 11
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 132,
+          "tczOrder" : 12,
+          "refTczOrder" : 12
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 185,
+          "tczOrder" : 13,
+          "refTczOrder" : 13
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 43,
+          "tczOrder" : 14,
+          "refTczOrder" : 14
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 78,
+          "tczOrder" : 15,
+          "refTczOrder" : 15
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 148,
+          "tczOrder" : 16,
+          "refTczOrder" : 16
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 183,
+          "tczOrder" : 17,
+          "refTczOrder" : 17
+        }, {
+          "@class" : "es.adif.sit.reg.activeplanmng.dto.circulation.running.RunningTime",
+          "startSpeed" : 0,
+          "routeTime" : 117,
+          "tczOrder" : 18,
+          "refTczOrder" : 18
+        } ]
+      },
+      "formation" : {
+        "theoreticalFormation" : [ {
+          "tczOrder" : 0,
+          "baseFormationId" : "ba6f64ad-a9df-3a48-8d7e-b44a2c810077",
+          "formationData" : {
+            "totalizableData" : {
+              "@class" : "es.adif.sit.reg.rollingstock.model.FormationTotalizableData",
+              "totalizableDataType" : "FORMATION",
+              "loadingGauges" : { },
+              "gaugeTypes" : [ "RUSSIAN" ],
+              "rollingFactor" : 500.0,
+              "flangeFactor" : 4.0,
+              "aerodynamicFactor" : 0.1,
+              "length" : null,
+              "mass" : 400.0,
+              "axleCount" : null,
+              "speedCritValues" : {
+                "spc3" : "scv14",
+                "spc2" : "scv9"
+              },
+              "trafficType" : "PASSENGERS",
+              "tractionSet" : "sts3",
+              "rotaryInertialMass" : null,
+              "circuitBreakerClosingTime" : 15.0,
+              "onboardAtpModes" : [ "snt2", "snt1", "snt4", "snt3" ],
+              "tractionTypeData" : {
+                "stt3" : {
+                  "tractionType" : "not_electrified",
+                  "maxSpeed" : 200,
+                  "criticalSpeed" : null,
+                  "mechanicalEfficiency" : 1.0,
+                  "regBrakeEfficiency" : 0.0,
+                  "brakingCurve" : [ {
+                    "speed" : 0.0,
+                    "force" : 800000.0
+                  }, {
+                    "speed" : 200.0,
+                    "force" : 200000.0
+                  } ],
+                  "fuelCurve" : {
+                    "stt3" : [ ]
+                  },
+                  "powerPercentageCurves" : { },
+                  "tractionCurve" : [ {
+                    "speed" : 0.0,
+                    "force" : 800000.0
+                  }, {
+                    "speed" : 200.0,
+                    "force" : 200000.0
+                  } ],
+                  "uniformAcceleration" : 1.0,
+                  "uniformDeceleration" : 1.0
+                }
+              },
+              "tare" : null,
+              "maxLoad" : null,
+              "auxSystemsConsumption" : null,
+              "dangerousGoodsAllowed" : null,
+              "specialConvoy" : null,
+              "lastMotorVehicleDistance" : null
+            },
+            "vehiclesSetup" : [ {
+              "vehicleId" : "ba6f64ad-a9df-3a48-8d7e-b44a2c88c583",
+              "vehicleType" : "SELFPROPELLED",
+              "motor" : true,
+              "loadPercentage" : null
+            } ],
+            "calculationType" : null,
+            "virtualizedData" : null,
+            "formationType" : null
+          },
+          "secondaryTractions" : [ ],
+          "calculationParameters" : {
+            "calculationType" : "DYNAMIC",
+            "initialSpeed" : null,
+            "tunnelResistance" : null,
+            "useRotaryInertialMass" : null
+          }
+        } ],
+        "realFormation" : [ ]
+      },
+      "compatibilityDays" : [ {
+        "compatibilityStatus" : "COMPATIBLE",
+        "date" : 1683849600000
+      } ],
+      "extendedCompatibilityDays" : null,
+      "compatibilityStatus" : "COMPATIBLE",
+      "nodeIdList" : [ "bd7849d9-12a5-3328-9e33-9b9df83131b3", "aba96bdb-5f9f-31ac-bb8d-72c6bddb0d50", "41861841-8027-3b10-a597-f6baccab40d4", "1806cb20-1110-3213-8244-1781540db58e", "ee2f79cf-e12a-3ee6-ad4b-81ede08f38a1", "c6dcdab8-3ee4-3fa0-b163-f574af23a6ff", "9cf33885-01bd-38b7-b42f-8649b4e1a7f7", "084b2fab-4592-34c0-9dbf-b141fde5faba", "0c0df3a1-6809-365a-baa7-9955503fa667", "4c30c41a-e995-3b4e-b266-5e271a102915", "6ab9f197-a979-3615-ad50-e4a468f68d95", "1cd1c545-a14b-3267-a295-795280510a79", "3156f39a-870d-304d-b5b0-6caf31022266", "5ff14585-ce38-317c-956e-0970df2a5b93", "82c6a023-7882-3101-945c-d2e58043b4ab", "19b899f7-19c0-3063-8c46-a6c540e0bd37", "cbf49637-a1ab-31c0-8cf4-593f97c080bf", "eb6991bd-69ac-390f-9595-089415d30e99", "d26a7887-85cd-3312-9122-c386148bda40", "fdf0afd0-9f3d-36bb-8883-5da286e9f470" ],
+      "tczIdList" : [ "4a62c3ca-977c-3dc3-a85e-2ba69397eaf8", "ac0756ea-f2ee-3586-90ae-ffb314cf2d35", "b8a0cea8-6556-3aef-966e-330a7a1474e4", "419e8590-e186-3612-9253-8d7b23537327", "f82c5149-dcdb-3340-b7bc-b21da4e3001a", "b545ecb7-ca57-385e-808c-afe679569acf", "e0e3efe6-29eb-3701-b1a7-1bba4276d6ad", "24812122-e379-3bca-9d4a-3e01f4e09950", "3476cd54-9495-3cf2-bc32-e85f35b37d54", "6d4f92a2-f983-3f53-97da-a0f86357e3fc", "63ae0f45-67d6-31e2-b584-f9d764244ddd", "e2c4d5ab-d4d0-33bb-b011-6aa1ff476426", "c91f444a-a91b-3643-924b-930683cf09f9", "49c80206-83bf-3ae1-aca2-6f9070fa9080", "b445f5d8-52c4-30dd-ab5c-5f9656f388a4", "bdead4b4-dcb8-34dc-a111-eff0bb1cb33d", "45d5f57a-6b95-3d53-9e86-b5af6e4ca970", "3fcd15bb-7e10-3aa6-8a5f-ea19a823cbf8", "13994c20-36fc-3463-a7a2-5ae6d0bca521", "5addd1cc-3c96-3f6e-87db-c37b4541ecb7" ],
+      "originCTC" : null,
+      "originHour" : 0,
+      "currentNumber" : null,
+      "arsStatus" : null,
+      "excludedSignalId" : null,
+      "ansStatus" : null,
+      "numberingBlackList" : null,
+      "trainValue" : 0.0,
+      "currentStatus" : null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1678347327951.9375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

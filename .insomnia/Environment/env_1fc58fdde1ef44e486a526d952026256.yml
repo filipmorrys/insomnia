@@ -1,0 +1,32 @@
+_id: env_1fc58fdde1ef44e486a526d952026256
+type: Environment
+parentId: env_92b8f9762d2f4faa90215662c2c9b218
+modified: 1682781920649
+created: 1682781843094
+name: SITRA+ LOCAL
+data:
+  activeplan_dataaccess: http://localhost:9080
+  activeplan_operation: http://localhost:9081
+  activeplan_realtime: http://localhost:9082
+  topology_cachemng: http://localhost:9090
+  service_manager: http://localhost:9050
+  auth_url: https://opefrvsit-dev-sitraplusauthprovider-sitdev.apps.ocp.mova.indra.es/oauth/authorize
+  auth_token: https://opefrvsit-dev-sitraplusauthprovider-sitdev.apps.ocp.mova.indra.es/oauth/token
+  auth_client: frontend-security
+  auth_secret: 07b83586-74d4-4a39-86b9-40defd7cda09
+  topology_version: ER_TOPO_GLOBAL_3_1_3
+dataPropertyOrder:
+  "&":
+    - activeplan_dataaccess
+    - activeplan_operation
+    - activeplan_realtime
+    - topology_cachemng
+    - service_manager
+    - auth_url
+    - auth_token
+    - auth_client
+    - auth_secret
+    - topology_version
+color: null
+isPrivate: false
+metaSortKey: 1682781843094

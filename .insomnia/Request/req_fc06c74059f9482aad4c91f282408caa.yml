@@ -1,0 +1,35 @@
+_id: req_fc06c74059f9482aad4c91f282408caa
+type: Request
+parentId: fld_116803fd935b4bd4bc3aafe5669c83e0
+modified: 1680087335547
+created: 1680087311314
+url: "{{ _.topology_cachemng
+  }}/api/topologycachemng/basetopology/parkingTrackByTczIdByGroup/{{
+  _.topology_version }}/f82c5149-dcdb-3340-b7bc-b21da4e3001a"
+name: Get Parking Tracks By TCZ
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1630453081570.711
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

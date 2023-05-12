@@ -1,0 +1,32 @@
+_id: env_eecfb4c1ea5c48318454cf6bcd8f7cf6
+type: Environment
+parentId: env_92b8f9762d2f4faa90215662c2c9b218
+modified: 1683905530173
+created: 1683905108888
+name: IRL DEV
+data:
+  activeplan_dataaccess: https://opefrvh60-dev-activeplanmng-dataaccess-irlint.apps.k8s.mova.indra.es
+  activeplan_operation: https://opefrvh60-dev-activeplanmng-operation-irlint.apps.k8s.mova.indra.es
+  activeplan_realtime: https://opefrvh60-dev-activeplanmng-realtime-irlint.apps.k8s.mova.indra.es
+  topology_cachemng: https://opefrvh59-prov-topologycachemng-irlprov.apps.k8s.mova.indra.es
+  service_manager: http://localhost:9050
+  auth_url: https://opefrvirl-dev-keycloak.apps.k8s.mova.indra.es/auth/realms/RealmSecurity/protocol/openid-connect/auth
+  auth_token: https://opefrvirl-dev-keycloak.apps.k8s.mova.indra.es/auth/realms/RealmSecurity/protocol/openid-connect/token
+  auth_client: frontend-security
+  auth_secret: bf89a5b8-a123-4eb4-a6c7-29400ed0bee5
+  topology_version: ER_TOPO_GLOBAL_3_1_2
+dataPropertyOrder:
+  "&":
+    - activeplan_dataaccess
+    - activeplan_operation
+    - activeplan_realtime
+    - topology_cachemng
+    - service_manager
+    - auth_url
+    - auth_token
+    - auth_client
+    - auth_secret
+    - topology_version
+color: null
+isPrivate: false
+metaSortKey: 1683905108888

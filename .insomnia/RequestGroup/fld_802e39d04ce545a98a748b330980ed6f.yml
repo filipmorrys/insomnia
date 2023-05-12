@@ -1,0 +1,10 @@
+_id: fld_802e39d04ce545a98a748b330980ed6f
+type: RequestGroup
+parentId: wrk_06b1e60ccc584192a7dd7dd5e1891966
+modified: 1682941815131
+created: 1682941770582
+name: TopologyExternalAccess (Solo SITRA+)
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1623507551545

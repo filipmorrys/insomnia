@@ -1,0 +1,35 @@
+_id: req_d225cfc36cb7443398046b2bdd6b63d6
+type: Request
+parentId: fld_593d75a9064a4ebea2b2c4f5400d2cfe
+modified: 1683289331503
+created: 1681889087419
+url: "{{ _.activeplan_dataaccess
+  }}/api/activeplanmng/circulation/topology-info/4930740c-b20d-4422-95ff-a08366\
+  f22356"
+name: Get Circulation Topology Info
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1678410130247.6719
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_3000b4715f3a4ca4be6c3b46f582d3dd
+type: Request
+parentId: fld_802e39d04ce545a98a748b330980ed6f
+modified: 1682953302825
+created: 1682953288445
+url: http://localhost:8110/api/topology-external-access/node/1682944380000
+name: Get All Nodes
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1682675824043.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

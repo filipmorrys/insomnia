@@ -1,0 +1,33 @@
+_id: req_10d6602bb8e84f149caaec0f22948733
+type: Request
+parentId: fld_116803fd935b4bd4bc3aafe5669c83e0
+modified: 1679998001754
+created: 1678100337417
+url: http://localhost:9090/api/topologycachemng/basetopology/ER_TOPO_GLOBAL_3_1_3
+name: 03. Load Base Topology
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1653103005788.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

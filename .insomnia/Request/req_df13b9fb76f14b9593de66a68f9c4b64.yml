@@ -1,0 +1,43 @@
+_id: req_df13b9fb76f14b9593de66a68f9c4b64
+type: Request
+parentId: fld_593d75a9064a4ebea2b2c4f5400d2cfe
+modified: 1681403301306
+created: 1678984870951
+url: "{{ _.activeplan_operation }}/api/activeplanmng/audit/route-detail-movements"
+name: Get Route Detail Movements
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"circulationId": "39af7aab-1e27-4fac-ad57-28895bd8e7f7",
+    	"workTczOrder": 2,
+    	"eventType": "ARRIVAL",
+    	"stTrackId": "4517d2d4-e1e9-3635-9718-6f43276ac4c0",
+    	"circTrackId": null,
+    	"nodeId": "084b2fab-4592-34c0-9dbf-b141fde5faba",
+    	"tczId": "f82c5149-dcdb-3340-b7bc-b21da4e3001a",
+    	"eventId": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1678305459754.7812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

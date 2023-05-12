@@ -1,0 +1,46 @@
+_id: req_3d751eca4c0a4ebd80328344bff4fa04
+type: Request
+parentId: fld_28c4723761684017a957478916268576
+modified: 1682419461877
+created: 1682419332700
+url: "{{ _.activeplan_dataaccess
+  }}https://opefrvh60-prov-stationmanager-tmsprov.apps.k8s.mova.indra.es/api/st\
+  ationmanager/station"
+name: Update Post
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "id": "f12d3484-a640-42b0-b9e1-8eb7c7fcc4c2",
+        "name": "Post fdrodriguez",
+        "description": "Post fdrodriguez",
+        "creationUser": "fdrodriguez",
+        "creationDate": 1682417593416,
+        "lastModificationUser": "fdrodriguez",
+        "lastModificationDate": 1682417593416,
+        "idTechnical": "10.22.52.254",
+        "environments": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1681878233589.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

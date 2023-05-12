@@ -1,0 +1,41 @@
+_id: req_e7e01c33c3214817a723ea92110d36eb
+type: Request
+parentId: fld_116803fd935b4bd4bc3aafe5669c83e0
+modified: 1678263612023
+created: 1678096817226
+url: http://localhost:9090/api/topologycachemng/basetopology/loadcatalogs
+name: 02. Load catalogs
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    [
+        {
+            "eventType": "SCHEDULED",
+            "date": "1640995270000",
+            "topologyVersion": "{{ _.topology_version }}",
+            "differences": null
+        }
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1678096025614.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

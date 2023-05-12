@@ -1,0 +1,33 @@
+_id: req_651d3c3b295f4886a035dae3405fde41
+type: Request
+parentId: fld_802e39d04ce545a98a748b330980ed6f
+modified: 1682963225899
+created: 1682941797712
+url: http://localhost:8110/api/topology-external-access/parkingtrack/ce2b4581-ea56-3bc7-9d78-785519fcb870/1682944380000
+name: Get Parking By Id
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1682680516545.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

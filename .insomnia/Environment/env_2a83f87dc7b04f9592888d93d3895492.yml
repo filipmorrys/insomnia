@@ -1,0 +1,32 @@
+_id: env_2a83f87dc7b04f9592888d93d3895492
+type: Environment
+parentId: env_92b8f9762d2f4faa90215662c2c9b218
+modified: 1683904956713
+created: 1619681277373
+name: TMS INT
+data:
+  activeplan_dataaccess: https://opefrvh60-int-activeplanmng-dataaccess-tmsint.apps.k8s.mova.indra.es
+  activeplan_operation: https://opefrvh60-int-activeplanmng-operation-tmsint.apps.k8s.mova.indra.es
+  activeplan_realtime: https://opefrvh60-int-activeplanmng-realtime-tmsint.apps.k8s.mova.indra.es
+  topology_cachemng: https://opefrvh59-int-topologycachemng-tmsint.apps.k8s.mova.indra.es
+  service_manager: http://localhost:9050
+  auth_url: https://opefrvtms-dev-keycloak.apps.k8s.mova.indra.es/auth/realms/RealmSecurity/protocol/openid-connect/auth
+  auth_token: https://opefrvtms-dev-keycloak.apps.k8s.mova.indra.es/auth/realms/RealmSecurity/protocol/openid-connect/token
+  auth_client: frontend-security
+  auth_secret: bf89a5b8-a123-4eb4-a6c7-29400ed0bee5
+  topology_version: ER_TOPO_GLOBAL_3_1_2
+dataPropertyOrder:
+  "&":
+    - activeplan_dataaccess
+    - activeplan_operation
+    - activeplan_realtime
+    - topology_cachemng
+    - service_manager
+    - auth_url
+    - auth_token
+    - auth_client
+    - auth_secret
+    - topology_version
+color: null
+isPrivate: false
+metaSortKey: 1619681277373

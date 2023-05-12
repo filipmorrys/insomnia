@@ -1,0 +1,61 @@
+_id: req_6d117bf9e92c4e73a766ee7ea2c7b186
+type: Request
+parentId: fld_593d75a9064a4ebea2b2c4f5400d2cfe
+modified: 1683703104947
+created: 1679568089610
+url: "{{ _.activeplan_operation }}/api/activeplanmng/auditlist"
+name: Audit List
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "circulationId": "06440ae3-1da8-4f45-89ca-04f34fd8d675",
+        "operations":
+        [
+            {
+                "editionOperation": false,
+                "originNumber": "69693",
+                "eventType": "DEPARTURE",
+                "tczId": "f82c5149-dcdb-3340-b7bc-b21da4e3001a",
+                "nodeId": "084b2fab-4592-34c0-9dbf-b141fde5faba",
+                "workTczOrder": 2,
+                "plannedTczOrder": 2,
+                "hour": 1683695440000,
+                "trackId": "a38b9bea-ef63-3fae-9a2e-0bc1c4aff125",
+                "detention": false
+            },
+            {
+                "originNumber": "69693",
+                "eventType": "NODE_DEPARTURE",
+                "tczId": "f82c5149-dcdb-3340-b7bc-b21da4e3001a",
+                "nodeId": "084b2fab-4592-34c0-9dbf-b141fde5faba",
+                "workTczOrder": 2,
+                "plannedTczOrder": 2,
+                "trackId": "380898dd-e62c-3369-b862-2c1daef15d4e",
+                "selectedMovementId": "bc9d74db-8689-3c73-a245-6e42cb4b4005"
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1678284525656.2031
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

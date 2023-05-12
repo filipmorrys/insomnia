@@ -1,0 +1,45 @@
+_id: req_ebf75a71fa8c47a18a92a86d28406fd2
+type: Request
+parentId: fld_196212338a7046c98e2644e0794397fa
+modified: 1678990896942
+created: 1678979398337
+url: "\thttps://opefrvh60-int-settings-tmsint.apps.k8s.mova.indra.es/api/settin\
+  gs/setting"
+name: Update Settings
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"method": "PUT",
+    	"setting": {
+    		"key": "enable-predictions-over-time",
+    		"value": {
+    			"enablePredictions": "false"
+    		},
+    		"scope": "active-plan-manager",
+    		"domain": "tms"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1628134393157.924
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

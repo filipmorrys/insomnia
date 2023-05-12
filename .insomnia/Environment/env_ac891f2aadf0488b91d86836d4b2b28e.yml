@@ -1,0 +1,28 @@
+_id: env_ac891f2aadf0488b91d86836d4b2b28e
+type: Environment
+parentId: env_92b8f9762d2f4faa90215662c2c9b218
+modified: 1682781894404
+created: 1677840273066
+name: SITRA+ DEV
+data:
+  activeplan_dataaccess: https://opefrvsit-dev-activeplanmng-dataaccess-sitdev.apps.ocp.mova.indra.es
+  activeplan_operation: https://opefrvsit-dev-activeplanmng-operation-sitdev.apps.ocp.mova.indra.es
+  activeplan_realtime: https://opefrvsit-dev-activeplanmng-realtime-sitdev.apps.ocp.mova.indra.es
+  auth_url: https://opefrvsit-dev-sitraplusauthprovider-sitdev.apps.ocp.mova.indra.es/oauth/authorize
+  auth_token: https://opefrvsit-dev-sitraplusauthprovider-sitdev.apps.ocp.mova.indra.es/oauth/token
+  auth_client: frontend-security
+  auth_secret: 07b83586-74d4-4a39-86b9-40defd7cda09
+  topology_version: ER_TOPO_GLOBAL_3_1_3
+dataPropertyOrder:
+  "&":
+    - activeplan_dataaccess
+    - activeplan_operation
+    - activeplan_realtime
+    - auth_url
+    - auth_token
+    - auth_client
+    - auth_secret
+    - topology_version
+color: null
+isPrivate: false
+metaSortKey: 1677840273066

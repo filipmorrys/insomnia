@@ -1,0 +1,30 @@
+_id: env_752d3fd7b961432b8d6b5754813f7911
+type: Environment
+parentId: env_92b8f9762d2f4faa90215662c2c9b218
+modified: 1680255113961
+created: 1677840215250
+name: EST INT
+data:
+  activeplan_dataaccess: https://opefrvh60-int-activeplanmng-dataaccess-estint.apps.k8s.mova.indra.es
+  activeplan_operation: https://opefrvh60-int-activeplanmng-operation-estint.apps.k8s.mova.indra.es
+  activeplan_realtime: https://opefrvh60-int-activeplanmng-realtime-estint.apps.k8s.mova.indra.es
+  service_manager: https://opefrvh59-int-service-manager-estint.apps.k8s.mova.indra.es
+  auth_url: https://opefrvest-dev-keycloak.apps.k8s.mova.indra.es/auth/realms/RealmSecurity/protocol/openid-connect/auth
+  auth_token: https://opefrvest-dev-keycloak.apps.k8s.mova.indra.es/auth/realms/RealmSecurity/protocol/openid-connect/token
+  auth_client: frontend-security
+  auth_secret: bf89a5b8-a123-4eb4-a6c7-29400ed0bee5
+  topology_version: ER_TOPO_GLOBAL_3_1_2
+dataPropertyOrder:
+  "&":
+    - activeplan_dataaccess
+    - activeplan_operation
+    - activeplan_realtime
+    - service_manager
+    - auth_url
+    - auth_token
+    - auth_client
+    - auth_secret
+    - topology_version
+color: null
+isPrivate: false
+metaSortKey: 1677840215250

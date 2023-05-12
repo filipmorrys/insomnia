@@ -1,0 +1,40 @@
+_id: req_e32bbc8580e0489185365fd4a660636f
+type: Request
+parentId: fld_593d75a9064a4ebea2b2c4f5400d2cfe
+modified: 1683719224134
+created: 1683719081469
+url: "{{ _.activeplan_operation }}/api/activeplanmng/stagingarea/restore/list"
+name: Restore circulation (sandbox)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"dimension": "9A888557",
+    	"entitiesId": [
+    		"910dcc76-c317-4101-8252-f77d599236fa",
+    		"1a104036-87c1-4ea6-b5c2-3bae320d1a5a"
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1678272750225.753
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

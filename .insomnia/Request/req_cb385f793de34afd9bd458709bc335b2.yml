@@ -1,0 +1,48 @@
+_id: req_cb385f793de34afd9bd458709bc335b2
+type: Request
+parentId: fld_593d75a9064a4ebea2b2c4f5400d2cfe
+modified: 1682520372919
+created: 1682428661408
+url: "{{ _.activeplan_operation }}/api/activeplanmng/replan"
+name: Replan Circulation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "circulationId": "ad4bae2b-7dac-4e6d-b106-405a6768e6f5",
+        "data":
+        {
+            "circulationId": "ad4bae2b-7dac-4e6d-b106-405a6768e6f5",
+            "arrivalHour": 1682524010000,
+            "departureHour": 1682524143000,
+            "commercial": 1682524070000,
+            "technical": null,
+            "minimalStopTime": 30,
+            "tczOrder": 14,
+            "tczType": "COMMERCIALSTOP",
+            "operationType": "CHANGE_TCZ_SCHEDULE"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1678271441844.5918
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,48 @@
+_id: req_859c1eedbe6540868c658b80a67ffe01
+type: Request
+parentId: fld_593d75a9064a4ebea2b2c4f5400d2cfe
+modified: 1679931052899
+created: 1679648173747
+url: "{{ _.activeplan_realtime }}/api/activeplanmng/circulation/position"
+name: Update Current Status
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "circulationId": {
+            "id": "4bd7db39-38a9-463f-8f1d-34cad7d7d931"
+        },
+        "currentStatus": {
+            "trainDetectors": [
+                {
+                    "order": 0,
+                    "trainDetectorId": "CV.ER-KOID-KOID-It"
+                }
+            ],
+            "direction": "ODD"
+        },
+        "trainDetectorDistance": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1678263591507.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

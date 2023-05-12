@@ -1,0 +1,32 @@
+_id: env_1080e259f54447c5ad0f8b906f5327e1
+type: Environment
+parentId: env_92b8f9762d2f4faa90215662c2c9b218
+modified: 1682781823906
+created: 1678990294912
+name: TMS LOCAL
+data:
+  activeplan_dataaccess: http://localhost:9080
+  activeplan_operation: http://localhost:9081
+  activeplan_realtime: http://localhost:9082
+  topology_cachemng: http://localhost:9090
+  service_manager: http://localhost:9050
+  auth_url: https://opefrvtms-dev-keycloak.apps.k8s.mova.indra.es/auth/realms/RealmSecurity/protocol/openid-connect/auth
+  auth_token: https://opefrvtms-dev-keycloak.apps.k8s.mova.indra.es/auth/realms/RealmSecurity/protocol/openid-connect/token
+  auth_client: frontend-security
+  auth_secret: bf89a5b8-a123-4eb4-a6c7-29400ed0bee5
+  topology_version: ER_TOPO_GLOBAL_3_1_3
+dataPropertyOrder:
+  "&":
+    - activeplan_dataaccess
+    - activeplan_operation
+    - activeplan_realtime
+    - topology_cachemng
+    - service_manager
+    - auth_url
+    - auth_token
+    - auth_client
+    - auth_secret
+    - topology_version
+color: null
+isPrivate: false
+metaSortKey: 1678990294912

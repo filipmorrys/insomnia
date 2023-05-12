@@ -1,0 +1,35 @@
+_id: req_785ff246dd214118a7bd9767a49d0779
+type: Request
+parentId: fld_116803fd935b4bd4bc3aafe5669c83e0
+modified: 1678990700119
+created: 1678363524325
+url: "{{ _.topology_cachemng
+  }}/api/topologycachemng/basetopology/timeControlPoint/{{ _.topology_version
+  }}"
+name: Get All TCPs
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1628891017831.5703
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

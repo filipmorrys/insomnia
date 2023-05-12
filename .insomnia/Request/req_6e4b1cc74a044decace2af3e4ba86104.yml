@@ -1,0 +1,41 @@
+_id: req_6e4b1cc74a044decace2af3e4ba86104
+type: Request
+parentId: fld_116803fd935b4bd4bc3aafe5669c83e0
+modified: 1678992754256
+created: 1678095987679
+url: http://localhost:9090/api/topologycachemng/basetopology/loadgroups
+name: 01. Load groups
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+    		"eventType": "SCHEDULED",
+    		"date": "1640995270000",
+    		"topologyVersion": "{{ _.topology_version }}",
+    		"differences": null
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1678096118769
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

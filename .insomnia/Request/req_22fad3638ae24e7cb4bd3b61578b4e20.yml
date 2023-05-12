@@ -1,0 +1,35 @@
+_id: req_22fad3638ae24e7cb4bd3b61578b4e20
+type: Request
+parentId: fld_116803fd935b4bd4bc3aafe5669c83e0
+modified: 1683303721243
+created: 1683303575985
+url: "{{ _.topology_cachemng
+  }}/api/topologycachemng/basetopology/circulationTrackbydate/1683281000000/438\
+  7e245-89fe-3c9e-9513-d251091cbd03"
+name: Get Circulation Track By Id
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a423d5fc77b844349a5d34f4e7c8ba0b
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: "{{ _.auth_url }}"
+  accessTokenUrl: "{{ _.auth_token }}"
+  clientId: "{{ _.auth_client }}"
+  clientSecret: "{{ _.auth_secret }}"
+  redirectUrl: http://localhost:4200/*
+metaSortKey: -1628402872913.0889
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
