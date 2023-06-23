@@ -1,30 +1,25 @@
 _id: req_1f05f54ba055475bb02a48c52bd6d09f
 type: Request
 parentId: fld_593d75a9064a4ebea2b2c4f5400d2cfe
-modified: 1683703092396
+modified: 1687260593651
 created: 1679575831722
 url: "{{ _.activeplan_operation }}/api/activeplanmng/audit"
-name: Audit Arrival
+name: Audit Simple
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |
+  text: |-
     {
-        "circulationId": "06440ae3-1da8-4f45-89ca-04f34fd8d675",
-        "originNumber": "69693",
-        "eventType": "ARRIVAL",
-        "tczId": "f82c5149-dcdb-3340-b7bc-b21da4e3001a",
-        "nodeId": "084b2fab-4592-34c0-9dbf-b141fde5faba",
-        "workTczOrder": 2,
-        "plannedTczOrder": 2,
-        "hour": 1683695440000,
-        "trackId": "a38b9bea-ef63-3fae-9a2e-0bc1c4aff125",
-        "eventId": "562c1eda-9736-4bd8-aa81-07ff4a319b2b",
-        "editionOperation": true,
-        "dkpInfo": null,
-        "selectedMovementId": "9fecdd68-70dd-3a39-8ba0-1dd86c640c6b",
-        "setAutoregistration": false
+      "circulationId": "70444080-20ba-4444-aca7-8e11ab4d89bb",
+      "originNumber": "33013",
+      "eventType": "ARRIVAL",
+      "tczId": "f82c5149-dcdb-3340-b7bc-b21da4e3001a",
+      "nodeId": "084b2fab-4592-34c0-9dbf-b141fde5faba",
+      "workTczOrder": 2,
+      "plannedTczOrder": 2,
+      "hour": 1687238920000,
+      "trackId": "a38b9bea-ef63-3fae-9a2e-0bc1c4aff125"
     }
 parameters: []
 headers:

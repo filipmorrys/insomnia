@@ -1,7 +1,7 @@
 _id: req_859c1eedbe6540868c658b80a67ffe01
 type: Request
 parentId: fld_593d75a9064a4ebea2b2c4f5400d2cfe
-modified: 1679931052899
+modified: 1687260424487
 created: 1679648173747
 url: "{{ _.activeplan_realtime }}/api/activeplanmng/circulation/position"
 name: Update Current Status
@@ -11,19 +11,19 @@ body:
   mimeType: application/json
   text: |-
     {
-        "circulationId": {
-            "id": "4bd7db39-38a9-463f-8f1d-34cad7d7d931"
-        },
-        "currentStatus": {
-            "trainDetectors": [
-                {
-                    "order": 0,
-                    "trainDetectorId": "CV.ER-KOID-KOID-It"
-                }
-            ],
-            "direction": "ODD"
-        },
-        "trainDetectorDistance": 0
+    	"circulationId": {
+    		"id": "70444080-20ba-4444-aca7-8e11ab4d89bb"
+    	},
+    	"currentStatus": {
+    		"trainDetectors": [
+    			{
+    				"order": 0,
+    				"trainDetectorId": "CV.ER-ORAV-ORAV-1BP"
+    			}
+    		],
+    		"direction": "ODD"
+    	},
+    	"trainDetectorDistance": 0
     }
 parameters: []
 headers:

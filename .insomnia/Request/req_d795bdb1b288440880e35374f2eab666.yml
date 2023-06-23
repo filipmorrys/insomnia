@@ -1,7 +1,7 @@
 _id: req_d795bdb1b288440880e35374f2eab666
 type: Request
 parentId: fld_593d75a9064a4ebea2b2c4f5400d2cfe
-modified: 1683890145101
+modified: 1687513706836
 created: 1678980385548
 url: "{{ _.activeplan_dataaccess }}/api/activeplanmng/circulation"
 name: Create Circulation
@@ -12,8 +12,8 @@ body:
   text: >-
     {
       "id" : null,
-      "originNumber" : "69690",
-      "applicationDay" : 1683849600000,
+      "originNumber" : "69697",
+      "applicationDay" : 1687478400000,
       "runningProfile" : null,
       "parentID" : "038b19e4-00c5-4fb8-87ea-62d81625e737",
       "plannedRoute" : [ {
@@ -35,7 +35,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "59327d22-47f5-466b-83b3-4d27433a5e99",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "ab2d7120-d8d8-32d8-a158-272caa5bee62",
@@ -67,7 +67,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "49d1e9f6-b316-4c00-8df2-6901b5509e5a",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "345546e3-318c-3b86-a4f8-20775e87035f",
@@ -99,7 +99,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "f7ac0c0e-a413-4a2a-a778-b515a2b75258",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "bc9d74db-8689-3c73-a245-6e42cb4b4005",
@@ -131,7 +131,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "3ddbfad3-f468-4d2e-8552-1bb88728618f",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "e1e8d5b8-bd15-3d41-a2b0-27bd90e6fb85",
@@ -163,7 +163,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "18c9d35d-985a-4648-8c6a-a2fdf84b63b5",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "6acb51f8-8d27-3dd4-a6ac-c4c169af8841",
@@ -195,7 +195,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "268fc472-863c-499c-b7d3-57f74750343b",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "8a253594-562b-39cf-a7e0-7dca0b3d8763",
@@ -227,7 +227,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "4b79f5b3-df6c-4ef2-b3ce-d315a3045974",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "ed170f7f-3010-3d94-a80e-8401e54cc9dd",
@@ -259,7 +259,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "5abff14e-57fa-428c-b5b4-e761fb902f52",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "f2c612dc-af9b-3ed8-b3bd-5676818e9583",
@@ -291,7 +291,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "ba0f7103-6da4-4362-aa54-ad908459d99a",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "49124854-b445-38e3-b1e0-16d990daec0b",
@@ -323,7 +323,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "c24551a4-7c86-462e-8986-1d9fa1080ee2",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "1e1d2b0f-07bd-335b-a435-5106410e5aa0",
@@ -355,7 +355,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "e4dea23f-707e-4880-9839-c7761e474b4c",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "a8b3f0af-7244-349f-a360-90cfefc5e655",
@@ -387,7 +387,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "325e47ff-4074-47e9-9d23-a251b169b0de",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "c8206c5a-cfe9-3ff5-9484-8e71734964a3",
@@ -419,7 +419,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "84f8c923-48e5-4e63-8c78-baa4e017d524",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "104371d4-2563-3d38-a25b-6dc8c7d11c05",
@@ -451,7 +451,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "89b9a183-0b65-44d9-ae3f-f52fd0e18bde",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "79a26241-4f23-3f34-b78f-151da0290cf6",
@@ -483,7 +483,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "0444a7c7-de13-4299-8484-5b4d80e9b505",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "b5b45f82-9bab-3959-9903-d59f6369fcc0",
@@ -515,7 +515,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "082b4e14-7cdf-49bf-8578-a5270de28da2",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "aad79d5a-35bf-3262-ad0e-048dae7c2f94",
@@ -547,7 +547,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "acdb1c28-1084-46df-b091-2261e1ffffac",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "c315b0f0-9ef1-376f-8f87-28db47a816a6",
@@ -579,7 +579,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "f583156c-93fd-452a-8620-eed3c79c3bc3",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "ae71b3be-adab-3966-af6c-5ed4cfaf1947",
@@ -611,7 +611,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "07f0e572-c71f-4add-bd99-be23c9de086e",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : "e9e4e754-915b-396f-9101-72db00684348",
@@ -643,7 +643,7 @@ body:
         "inputLineId" : "925e0838-a148-3c77-b6ff-6df5f445d2dc",
         "inputLinePubId" : "3d1513f1-dcd8-4e75-8a43-8705ac9f6e06",
         "atpMode" : "ASFA",
-        "currentNumber" : "69690",
+        "currentNumber" : "69697",
         "gauge" : "CONVENTIONAL",
         "maneuverId" : null,
         "oMovementId" : null,
@@ -664,25 +664,25 @@ body:
           "tczOrder" : 0,
           "refTczOrder" : 0,
           "arrival" : {
-            "hour" : 1683871200000
+            "hour" : 1687510800000
           },
           "type" : "ORIGIN",
           "departure" : {
-            "hour" : 1683871200000,
-            "commercial" : 1683871080000,
+            "hour" : 1687510800000,
+            "commercial" : 1687510680000,
             "technicalTime" : 60,
             "minimalStopTime" : 60,
-            "technical" : 1683871140000
+            "technical" : 1687510740000
           }
         }, {
           "tczOrder" : 1,
           "refTczOrder" : 1,
           "arrival" : {
-            "hour" : 1683871380000
+            "hour" : 1687510980000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683871380000,
+            "hour" : 1687510980000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -692,11 +692,11 @@ body:
           "tczOrder" : 2,
           "refTczOrder" : 2,
           "arrival" : {
-            "hour" : 1683871840000
+            "hour" : 1687511440000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683871840000,
+            "hour" : 1687511440000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -706,11 +706,11 @@ body:
           "tczOrder" : 3,
           "refTczOrder" : 3,
           "arrival" : {
-            "hour" : 1683872060000
+            "hour" : 1687511660000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683872060000,
+            "hour" : 1687511660000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -720,11 +720,11 @@ body:
           "tczOrder" : 4,
           "refTczOrder" : 4,
           "arrival" : {
-            "hour" : 1683872170000
+            "hour" : 1687511770000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683872170000,
+            "hour" : 1687511770000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -734,11 +734,11 @@ body:
           "tczOrder" : 5,
           "refTczOrder" : 5,
           "arrival" : {
-            "hour" : 1683872260000
+            "hour" : 1687511860000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683872260000,
+            "hour" : 1687511860000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -748,11 +748,11 @@ body:
           "tczOrder" : 6,
           "refTczOrder" : 6,
           "arrival" : {
-            "hour" : 1683872500000
+            "hour" : 1687512100000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683872500000,
+            "hour" : 1687512100000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -762,11 +762,11 @@ body:
           "tczOrder" : 7,
           "refTczOrder" : 7,
           "arrival" : {
-            "hour" : 1683872680000
+            "hour" : 1687512280000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683872680000,
+            "hour" : 1687512280000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -776,11 +776,11 @@ body:
           "tczOrder" : 8,
           "refTczOrder" : 8,
           "arrival" : {
-            "hour" : 1683872900000
+            "hour" : 1687512500000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683872900000,
+            "hour" : 1687512500000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -790,11 +790,11 @@ body:
           "tczOrder" : 9,
           "refTczOrder" : 9,
           "arrival" : {
-            "hour" : 1683873080000
+            "hour" : 1687512680000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683873080000,
+            "hour" : 1687512680000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -804,11 +804,11 @@ body:
           "tczOrder" : 10,
           "refTczOrder" : 10,
           "arrival" : {
-            "hour" : 1683873230000
+            "hour" : 1687512830000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683873230000,
+            "hour" : 1687512830000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -818,11 +818,11 @@ body:
           "tczOrder" : 11,
           "refTczOrder" : 11,
           "arrival" : {
-            "hour" : 1683873320000
+            "hour" : 1687512920000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683873320000,
+            "hour" : 1687512920000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -832,11 +832,11 @@ body:
           "tczOrder" : 12,
           "refTczOrder" : 12,
           "arrival" : {
-            "hour" : 1683873450000
+            "hour" : 1687513050000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683873450000,
+            "hour" : 1687513050000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -846,11 +846,11 @@ body:
           "tczOrder" : 13,
           "refTczOrder" : 13,
           "arrival" : {
-            "hour" : 1683873610000
+            "hour" : 1687513210000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683873610000,
+            "hour" : 1687513210000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -860,11 +860,11 @@ body:
           "tczOrder" : 14,
           "refTczOrder" : 14,
           "arrival" : {
-            "hour" : 1683873830000
+            "hour" : 1687513430000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683873830000,
+            "hour" : 1687513430000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -874,11 +874,11 @@ body:
           "tczOrder" : 15,
           "refTczOrder" : 15,
           "arrival" : {
-            "hour" : 1683873880000
+            "hour" : 1687513480000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683873880000,
+            "hour" : 1687513480000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -888,11 +888,11 @@ body:
           "tczOrder" : 16,
           "refTczOrder" : 16,
           "arrival" : {
-            "hour" : 1683873970000
+            "hour" : 1687513570000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683873970000,
+            "hour" : 1687513570000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -902,11 +902,11 @@ body:
           "tczOrder" : 17,
           "refTczOrder" : 17,
           "arrival" : {
-            "hour" : 1683874150000
+            "hour" : 1687513750000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683874150000,
+            "hour" : 1687513750000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -916,11 +916,11 @@ body:
           "tczOrder" : 18,
           "refTczOrder" : 18,
           "arrival" : {
-            "hour" : 1683874370000
+            "hour" : 1687513970000
           },
           "type" : "THROUGH",
           "departure" : {
-            "hour" : 1683874370000,
+            "hour" : 1687513970000,
             "commercial" : null,
             "technicalTime" : null,
             "minimalStopTime" : null,
@@ -930,11 +930,11 @@ body:
           "tczOrder" : 19,
           "refTczOrder" : 19,
           "arrival" : {
-            "hour" : 1683874530000
+            "hour" : 1687514130000
           },
           "type" : "DESTINATION",
           "departure" : {
-            "hour" : 1683874530000,
+            "hour" : 1687514130000,
             "commercial" : 1680130800000,
             "technicalTime" : 60,
             "minimalStopTime" : 90,
@@ -1276,7 +1276,7 @@ body:
       },
       "compatibilityDays" : [ {
         "compatibilityStatus" : "COMPATIBLE",
-        "date" : 1683849600000
+        "date" : 1687478400000
       } ],
       "extendedCompatibilityDays" : null,
       "compatibilityStatus" : "COMPATIBLE",

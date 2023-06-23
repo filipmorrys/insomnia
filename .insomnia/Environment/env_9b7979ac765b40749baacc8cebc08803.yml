@@ -1,17 +1,20 @@
 _id: env_9b7979ac765b40749baacc8cebc08803
 type: Environment
 parentId: env_92b8f9762d2f4faa90215662c2c9b218
-modified: 1683531976265
+modified: 1687516710655
 created: 1679915241026
 name: TMS DEV
 data:
   activeplan_dataaccess: https://opefrvh60-tmm-activeplanmng-dataaccess-tmstmm.apps.k8s.mova.indra.es
   activeplan_operation: https://opefrvh60-tmm-activeplanmng-operation-tmstmm.apps.k8s.mova.indra.es
-  activeplan_realtime: https://opefrvh60-tmm-activeplanmng-realtime-tmsint.apps.k8s.mova.indra.es
+  activeplan_realtime: https://opefrvh60-tmm-activeplanmng-realtime-tmstmm.apps.k8s.mova.indra.es
   topology_cachemng: https://opefrvh59-prov-topologycachemng-tmsprov.apps.k8s.mova.indra.es
+  circulation_movements: https://opefrvh60-tmm-circulationmovements-tmstmm.apps.k8s.mova.indra.es
+  elasticsearch: https://opefrvtms-dev-es-test.apps.k8s.mova.indra.es
   service_manager: http://localhost:9050
-  auth_url: https://opefrvtms-dev-keycloak.apps.k8s.mova.indra.es/auth/realms/RealmSecurity/protocol/openid-connect/auth
-  auth_token: https://opefrvtms-dev-keycloak.apps.k8s.mova.indra.es/auth/realms/RealmSecurity/protocol/openid-connect/token
+  auxdata_manager: https://opefrvh60-tmm-auxdatamng-tmstmm.apps.k8s.mova.indra.es
+  auth_url: https://keycloak20-test.apps.k8s.mova.indra.es/auth/realms/RealmSecurity/protocol/openid-connect/auth
+  auth_token: https://keycloak20-test.apps.k8s.mova.indra.es/auth/realms/RealmSecurity/protocol/openid-connect/token
   auth_client: frontend-security
   auth_secret: bf89a5b8-a123-4eb4-a6c7-29400ed0bee5
   topology_version: ER_TOPO_GLOBAL_3_1_3
@@ -21,7 +24,10 @@ dataPropertyOrder:
     - activeplan_operation
     - activeplan_realtime
     - topology_cachemng
+    - circulation_movements
+    - elasticsearch
     - service_manager
+    - auxdata_manager
     - auth_url
     - auth_token
     - auth_client

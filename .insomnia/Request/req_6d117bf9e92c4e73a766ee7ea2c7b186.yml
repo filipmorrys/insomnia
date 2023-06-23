@@ -1,7 +1,7 @@
 _id: req_6d117bf9e92c4e73a766ee7ea2c7b186
 type: Request
 parentId: fld_593d75a9064a4ebea2b2c4f5400d2cfe
-modified: 1683703104947
+modified: 1686293114127
 created: 1679568089610
 url: "{{ _.activeplan_operation }}/api/activeplanmng/auditlist"
 name: Audit List
@@ -11,30 +11,28 @@ body:
   mimeType: application/json
   text: |-
     {
-        "circulationId": "06440ae3-1da8-4f45-89ca-04f34fd8d675",
-        "operations":
-        [
+        "circulationId": "3e9119d3-35b9-48f9-8305-69be52525dfa",
+        "operations": [
             {
                 "editionOperation": false,
-                "originNumber": "69693",
+                "originNumber": "69690",
                 "eventType": "DEPARTURE",
-                "tczId": "f82c5149-dcdb-3340-b7bc-b21da4e3001a",
-                "nodeId": "084b2fab-4592-34c0-9dbf-b141fde5faba",
-                "workTczOrder": 2,
-                "plannedTczOrder": 2,
-                "hour": 1683695440000,
-                "trackId": "a38b9bea-ef63-3fae-9a2e-0bc1c4aff125",
+                "tczId": "b8a0cea8-6556-3aef-966e-330a7a1474e4",
+                "nodeId": "9cf33885-01bd-38b7-b42f-8649b4e1a7f7",
+                "workTczOrder": 0,
+                "plannedTczOrder": 0,
+                "hour": 1686286810000,
+                "trackId": "a2269a76-1985-3daa-9819-a520a772f7e7",
                 "detention": false
             },
             {
-                "originNumber": "69693",
+                "originNumber": "69690",
                 "eventType": "NODE_DEPARTURE",
-                "tczId": "f82c5149-dcdb-3340-b7bc-b21da4e3001a",
-                "nodeId": "084b2fab-4592-34c0-9dbf-b141fde5faba",
-                "workTczOrder": 2,
-                "plannedTczOrder": 2,
-                "trackId": "380898dd-e62c-3369-b862-2c1daef15d4e",
-                "selectedMovementId": "bc9d74db-8689-3c73-a245-6e42cb4b4005"
+                "tczId": "b8a0cea8-6556-3aef-966e-330a7a1474e4",
+                "nodeId": "9cf33885-01bd-38b7-b42f-8649b4e1a7f7",
+                "workTczOrder": 0,
+                "plannedTczOrder": 0,
+                "trackId": "4387e245-89fe-3c9e-9513-d251091cbd03"
             }
         ]
     }

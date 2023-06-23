@@ -1,7 +1,7 @@
 _id: req_df13b9fb76f14b9593de66a68f9c4b64
 type: Request
 parentId: fld_593d75a9064a4ebea2b2c4f5400d2cfe
-modified: 1681403301306
+modified: 1686907985029
 created: 1678984870951
 url: "{{ _.activeplan_operation }}/api/activeplanmng/audit/route-detail-movements"
 name: Get Route Detail Movements
@@ -11,14 +11,14 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"circulationId": "39af7aab-1e27-4fac-ad57-28895bd8e7f7",
-    	"workTczOrder": 2,
-    	"eventType": "ARRIVAL",
-    	"stTrackId": "4517d2d4-e1e9-3635-9718-6f43276ac4c0",
-    	"circTrackId": null,
-    	"nodeId": "084b2fab-4592-34c0-9dbf-b141fde5faba",
-    	"tczId": "f82c5149-dcdb-3340-b7bc-b21da4e3001a",
-    	"eventId": null
+      "circulationId": "651bc984-afdc-4d44-b11f-f23df28cd5d5",
+      "workTczOrder": 5,
+      "eventType": "ARRIVAL",
+      "stTrackId": "6ccffbd1-8289-3b3d-b098-2dc76715008b",
+      "circTrackId": null,
+      "nodeId": "82c6a023-7882-3101-945c-d2e58043b4ab",
+      "tczId": "13994c20-36fc-3463-a7a2-5ae6d0bca521",
+      "eventId": "8f7b99f9-5f7f-4426-830f-1b10fbd7eac7"
     }
 parameters: []
 headers:
